@@ -18,5 +18,5 @@ $f = fopen("../python/python.php", "a");
 
 
 
-header("Location: loading1.html");
+header("Location: sms1.php");
 ?>
